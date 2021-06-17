@@ -1,0 +1,6 @@
+mysql -u root   // to launch mysql in CLI
+USE `nodelogin`;    // to use the database
+INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES (1, 'test', 'test', 'test@test.com'); // to add thing into the table
+show tables;    // to view the tabess of that database
+desc <table_name>;
+SELECT * from <table_name>; // to view the contents of that table
