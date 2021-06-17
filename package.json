@@ -1,0 +1,27 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "Authentication system",
+  "main": "login.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aayushgoyal443/nodelogin.git"
+  },
+  "keywords": [
+    "login"
+  ],
+  "author": "Aayush",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aayushgoyal443/nodelogin/issues"
+  },
+  "homepage": "https://github.com/aayushgoyal443/nodelogin#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1"
+  }
+}
